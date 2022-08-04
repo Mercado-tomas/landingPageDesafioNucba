@@ -1,0 +1,62 @@
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+.header{
+    background-color: ghostwhite ;
+    height: 80 px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px 80px;
+    width: 90%;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    font-size: 30px;
+    
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.logo-div{
+    padding: 10px 10px;
+    width: 10px;
+    height: 20px;
+}
+
+.nav-menu-link:hover{
+    background-color: gainsboro;
+}
